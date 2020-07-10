@@ -139,18 +139,12 @@ More instructions at https://github.com/microsoft/pxt#running-a-target-from-loca
 
 ### to watch for changes
 
-To rebuild automatically when changes are made, we need gulp.
+To rebuild automatically when changes are made, we need to run watch.
 
-Install gulp:
-
-```
-npm install -g gulp
-```
-
-and in a seperate terminal from `pxt serve` and in the pxt/ folder, run:
+In a seperate terminal from `pxt serve` and in the pxt/ folder, run:
 
 ```
-gulp watch
+npm run watch
 ```
 
 ## Viewing documents
